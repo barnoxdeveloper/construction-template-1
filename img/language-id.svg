@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="34.346001"
+   height="17.202"
+   viewBox="0 0 9.0873791 4.5513623"
+   version="1.1"
+   id="svg54"
+   inkscape:version="1.3.1 (9b9bdc1480, 2023-11-25, custom)"
+   sodipodi:docname="language-id.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs48" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="22.627417"
+     inkscape:cx="22.45064"
+     inkscape:cy="9.1260969"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="985"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:showpageshadow="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showguides="true">
+    <sodipodi:guide
+       position="0.05270996,4.3074495"
+       orientation="1,0"
+       id="guide1"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata51">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       class="fil0 str0"
+       x="0.063371047"
+       y="0.22906204"
+       width="8.962388"
+       height="4.0127935"
+       id="rect22"
+       style="clip-rule:evenodd;fill:#fefefe;fill-rule:evenodd;stroke:#332c2b;stroke-width:0.0207094;stroke-miterlimit:2.61313;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision" />
+    <rect
+       class="fil1 str0"
+       x="0.063099921"
+       y="0.22908331"
+       width="4.4518967"
+       height="4.0125389"
+       id="rect24"
+       style="clip-rule:evenodd;fill:#c83737;fill-rule:evenodd;stroke:#332c2b;stroke-width:0.0206707;stroke-miterlimit:2.61313;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision;fill-opacity:1" />
+    <rect
+       class="fil0 str0"
+       x="0.74821115"
+       y="0.77383143"
+       width="3.1809387"
+       height="2.8475521"
+       id="rect26"
+       style="clip-rule:evenodd;fill:#fefefe;fill-rule:evenodd;stroke:#332c2b;stroke-width:0.0204689;stroke-miterlimit:2.61313;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision" />
+    <rect
+       class="fil0 str1"
+       x="5.1557951"
+       y="0.77383143"
+       width="3.1809387"
+       height="2.8475521"
+       id="rect28"
+       style="clip-rule:evenodd;fill:#fefefe;fill-rule:evenodd;stroke:#000000;stroke-width:0.00884822;stroke-miterlimit:2.61313;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision" />
+    <text
+       x="1.8976569"
+       y="2.3982911"
+       class="fil2 fnt0"
+       id="text30"
+       style="font-weight:bold;font-size:1.57194px;font-family:'Berlin Sans FB Demi';clip-rule:evenodd;fill:#332c2b;fill-rule:evenodd;stroke-width:0.00294941;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision"
+       transform="scale(0.84588252,1.1821973)"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Poppins;-inkscape-font-specification:Poppins"
+         id="tspan1">ID</tspan></text>
+    <text
+       x="6.9484916"
+       y="2.3982911"
+       class="fil2 fnt0"
+       id="text32"
+       style="font-weight:bold;font-size:1.57194px;font-family:'Berlin Sans FB Demi';clip-rule:evenodd;fill:#332c2b;fill-rule:evenodd;stroke-width:0.00294941;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision"
+       transform="scale(0.84588252,1.1821973)"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Poppins;-inkscape-font-specification:Poppins"
+         id="tspan2">EN</tspan></text>
+  </g>
+</svg>
