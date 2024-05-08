@@ -6,19 +6,9 @@
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
         <meta content="" name="keywords" />
         <meta content="" name="description" />
-
         <!-- Favicon -->
-        <link href="img/favicon.ico" rel="icon" />
-
-        <!-- Google Web Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Rubik:wght@500;600;700&display=swap"
-            rel="stylesheet"
-        />
-
-        <!-- Icon Font Stylesheet -->
+        <link href="img/logo.png" rel="icon" />
+        <!-- Font Awesome 6.5.2 -->
         <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
@@ -26,6 +16,7 @@
             crossorigin="anonymous"
             referrerpolicy="no-referrer"
         />
+        <!-- Bootstrap 5.3.3 -->
         <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
@@ -33,11 +24,10 @@
             crossorigin="anonymous"
             referrerpolicy="no-referrer"
         />
-
-        <!-- Libraries Stylesheet -->
+        <!-- Animate -->
         <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <!-- Carousel -->
         <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
-
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet" />
     </head>
@@ -58,7 +48,7 @@
                 <a href="index.html" class="navbar-brand">
                     <img
                         src="img/logo.png"
-                        alt="Logo Tunas Mitra"
+                        alt="Logo Rekadaya Enjinering Nusantara"
                         width="50"
                         height="50"
                         class="d-inline-block align-text-top me-3 rounded-circle"
@@ -74,32 +64,33 @@
                     aria-controls="navbarCollapse"
                     aria-expanded="false"
                     aria-label="Toggle navigation"
+                    title="Navbar Button"
                 >
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
+                            <a class="nav-link" href="index.html" title="Home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about.html">About</a>
+                            <a class="nav-link" href="about.html" title="About">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="service.html">Services</a>
+                            <a class="nav-link" href="service.html" title="Services">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="project.html">Projects</a>
+                            <a class="nav-link active" href="project.html" title="Projects">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="testimonial.html">Testimonial</a>
+                            <a class="nav-link" href="testimonial.html" title="Terstimonials">Testimonials</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
+                            <a class="nav-link" href="contact.html" title="Contacts">Contacts</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <img src="img/language-id.svg" class="img-language" />
+                            <a class="nav-link" href="#" title="Button Change Language">
+                                <img src="img/language-id.svg" class="img-language" alt="Change Language" />
                             </a>
                         </li>
                     </ul>
@@ -113,41 +104,41 @@
             <div class="text-center mx-auto wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px">
                 <h1 class="display-5 mb-5">See What Projects Have Completed Recently</h1>
             </div>
-            <div class="owl-carousel project-carousel bg-dark wow fadeIn" data-wow-delay="0.1s">
-                <a class="project-item" href="">
+            <div class="owl-carousel project-carousel wow fadeIn" data-wow-delay="0.1s">
+                <a class="project-item" href="project-detail.html" title="">
                     <img class="img-fluid" src="img/project-1.jpg" alt="" />
                     <div class="project-title">
-                        <h5 class="text-primary mb-0">Auto Engineering</h5>
+                        <h5 class="text-warning mb-0">Auto Engineering</h5>
                     </div>
                 </a>
-                <a class="project-item" href="">
+                <a class="project-item" href="project-detail.html" title="">
                     <img class="img-fluid" src="img/project-2.jpg" alt="" />
                     <div class="project-title">
-                        <h5 class="text-primary mb-0">Civil Engineering</h5>
+                        <h5 class="text-warning mb-0">Civil Engineering</h5>
                     </div>
                 </a>
-                <a class="project-item" href="">
+                <a class="project-item" href="project-detail.html" title="">
                     <img class="img-fluid" src="img/project-3.jpg" alt="" />
                     <div class="project-title">
-                        <h5 class="text-primary mb-0">Gas Engineering</h5>
+                        <h5 class="text-warning mb-0">Gas Engineering</h5>
                     </div>
                 </a>
-                <a class="project-item" href="">
+                <a class="project-item" href="project-detail.html" title="">
                     <img class="img-fluid" src="img/project-4.jpg" alt="" />
                     <div class="project-title">
-                        <h5 class="text-primary mb-0">Power Engineering</h5>
+                        <h5 class="text-warning mb-0">Power Engineering</h5>
                     </div>
                 </a>
-                <a class="project-item" href="">
+                <a class="project-item" href="project-detail.html" title="">
                     <img class="img-fluid" src="img/project-5.jpg" alt="" />
                     <div class="project-title">
-                        <h5 class="text-primary mb-0">Energy Engineering</h5>
+                        <h5 class="text-warning mb-0">Energy Engineering</h5>
                     </div>
                 </a>
-                <a class="project-item" href="">
+                <a class="project-item" href="project-detail.html" title="">
                     <img class="img-fluid" src="img/project-6.jpg" alt="" />
                     <div class="project-title">
-                        <h5 class="text-primary mb-0">Water Engineering</h5>
+                        <h5 class="text-warning mb-0">Water Engineering</h5>
                     </div>
                 </a>
             </div>
@@ -175,12 +166,13 @@
         <div class="container-xxl py-5">
             <div class="container">
                 <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px">
-                    <h3 class="display-6 mb-5">What Our Clients Say!</h3>
+                    <p class="fw-medium text-uppercase text-warning mb-2">Testimonial</p>
+                    <h1 class="display-5 mb-5">What Our Clients Say!</h1>
                 </div>
                 <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
                     <div class="testimonial-item text-center">
                         <div class="testimonial-img position-relative">
-                            <img class="img-fluid rounded-circle mx-auto mb-5" src="img/testimonial-1.jpg" />
+                            <img class="img-fluid rounded-circle mx-auto mb-5" src="img/testimonial-1.jpg" alt="" />
                             <div class="btn-square bg-warning rounded-circle">
                                 <i class="fa fa-quote-left text-white"></i>
                             </div>
@@ -196,7 +188,7 @@
                     </div>
                     <div class="testimonial-item text-center">
                         <div class="testimonial-img position-relative">
-                            <img class="img-fluid rounded-circle mx-auto mb-5" src="img/testimonial-2.jpg" />
+                            <img class="img-fluid rounded-circle mx-auto mb-5" src="img/testimonial-2.jpg" alt="" />
                             <div class="btn-square bg-warning rounded-circle">
                                 <i class="fa fa-quote-left text-white"></i>
                             </div>
@@ -212,7 +204,7 @@
                     </div>
                     <div class="testimonial-item text-center">
                         <div class="testimonial-img position-relative">
-                            <img class="img-fluid rounded-circle mx-auto mb-5" src="img/testimonial-3.jpg" />
+                            <img class="img-fluid rounded-circle mx-auto mb-5" src="img/testimonial-3.jpg" alt="" />
                             <div class="btn-square bg-warning rounded-circle">
                                 <i class="fa fa-quote-left text-white"></i>
                             </div>
@@ -236,11 +228,8 @@
             <div class="container py-5">
                 <div class="row g-5">
                     <div class="col-lg-3 col-md-6">
-                        <h5 class="text-white mb-4">Rekadaya Enjinering Nusantara</h5>
-                        <p>
-                            Percayakan semua kebutuhan konstruksi anda kepada tim kami yang sudah memiliki pengalaman lebih dari 5 tahun di dunia
-                            konstruksi.
-                        </p>
+                        <h6 class="text-white mb-4">Rekadaya Enjinering Nusantara</h6>
+                        <p>Entrust all your construction needs to our team who has more than 5 years of experience in the world of construction.</p>
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <h5 class="text-white mb-2">Head Office(Jakarta)</h5>
@@ -250,53 +239,73 @@
                                 href="http://maps.google.com/?q=Metropolitan Tower lantai 13 Jl. R.A.Kartini No.10, RW.4, West Cilandak, Cilandak South Jakarta City-Jakarta 12430"
                                 target="_blank"
                                 class="text-decoration-none"
+                                title="Head Office(Jakarta)"
                             >
                                 Metropolitan Tower lantai 13 Jl. R.A.Kartini No.10, RW.4, West Cilandak, Cilandak South Jakarta City-Jakarta 12430
                             </a>
                         </p>
                         <p class="mb-2">
                             <i class="fa fa-phone-alt me-1"></i>
-                            <a href="tel:02129552755" class="text-decoration-none">02129552755</a>
+                            <a href="tel:02129552755" class="text-decoration-none" title="Our Telephone">02129552755</a>
                         </p>
                         <!-- <p class="mb-2">
-                        <i class="fa-brands fa-whatsapp me-3"></i>
-                        <a href="whatsapp://send?text=Hello PT. Rekadaya Enjinering Nusantara&phone=+6285730693888">+6285730693888</a>
-                    </p> -->
-                        <h5 class="text-white mb-2">Branch Office(Semarang)</h5>
+                            <i class="fa-brands fa-whatsapp me-3"></i>
+                            <a href="whatsapp://send?text=Hello PT. Rekadaya Enjinering Nusantara&phone=+6285730693888">+6285730693888</a>
+                        </p> -->
+                        <h5 class="text-white mb-2">Branch Office(Balikpapan)</h5>
                         <p class="mb-2">
                             <i class="fa fa-map-marker-alt me-1"></i>
                             <a
                                 href="http://maps.google.com/?q=The Eagle Hills Jl.Elang Raya Blok B21 Kec. Tembalang, Mangunharjo Semarang 50276"
                                 target="_blank"
                                 class="text-decoration-none"
+                                title="Branch Office(Balikpapan)"
                             >
-                                The Eagle Hills Jl.Elang Raya Blok B21 Kec. Tembalang, Mangunharjo Semarang 50276
+                                Perumahan Bukit Damai Indah Blok H No.29 Balikpapan Selatan Gunung Bahagia 76114.
                             </a>
                         </p>
                         <p class="mb-2">
                             <i class="fa fa-phone-alt me-1"></i>
-                            <a href="tel:081393130105" class="text-decoration-none">081393130105</a>
+                            <a href="tel:081393130105" class="text-decoration-none" title="Our Telephone">081393130105</a>
                         </p>
                         <!-- <p class="mb-2">
-                        <i class="fa-brands fa-whatsapp me-3"></i>
-                        <a href="whatsapp://send?text=Hello PT. Rekadaya Enjinering Nusantara&phone=+6281393130105">+6281393130105</a>
-                    </p> -->
+                            <i class="fa-brands fa-whatsapp me-3"></i>
+                            <a href="whatsapp://send?text=Hello PT. Rekadaya Enjinering Nusantara&phone=+6281393130105">+6281393130105</a>
+                        </p> -->
                     </div>
                     <div class="col-lg-2 col-md-6">
                         <h5 class="text-white mb-4">Quick Links</h5>
-                        <a class="btn btn-link" href="">About Us</a>
-                        <a class="btn btn-link" href="">Our Services</a>
-                        <a class="btn btn-link" href="">Our Projects</a>
-                        <a class="btn btn-link" href="">Testimonials</a>
-                        <a class="btn btn-link" href="">Contact Us</a>
+                        <a class="btn btn-link" href="about.html" title="About Us">About Us</a>
+                        <a class="btn btn-link" href="service.html" title="Our Services">Our Services</a>
+                        <a class="btn btn-link" href="project.html" title="Our Projects">Our Projects</a>
+                        <a class="btn btn-link" href="testimonial.html" title="Testimonials">Testimonials</a>
+                        <a class="btn btn-link" href="contact.html" title="Contact Us">Contact Us</a>
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <h5 class="text-white mb-4">Our Social Media</h5>
                         <p>Discover our best moments on social media.</p>
                         <div class="d-flex pt-3">
-                            <a class="btn btn-square btn-warning rounded-circle me-2" href=""><i class="fa-brands fa-x-twitter"></i></a>
-                            <a class="btn btn-square btn-warning rounded-circle me-2" href=""><i class="fa-brands fa-facebook-f"></i></a>
-                            <a class="btn btn-square btn-warning rounded-circle me-2" href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a
+                                class="btn btn-square btn-warning rounded-circle me-2"
+                                href="instagram.com"
+                                target="_blank"
+                                title="Follow us in Instagram"
+                                ><i class="fa-brands fa-instagram"></i
+                            ></a>
+                            <a
+                                class="btn btn-square btn-warning rounded-circle me-2"
+                                href="facebook.com"
+                                target="_blank"
+                                title="Follow us in Facebook"
+                                ><i class="fa-brands fa-facebook-f"></i
+                            ></a>
+                            <a
+                                class="btn btn-square btn-warning rounded-circle me-2"
+                                href="linkedin.com"
+                                target="_blank"
+                                title="Follow us in Linkedin"
+                                ><i class="fa-brands fa-linkedin-in"></i
+                            ></a>
                         </div>
                     </div>
                 </div>
