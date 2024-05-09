@@ -36,5 +36,20 @@
         return false;
     });
 
+    $(document).click(function (event) {
+        var clickOver = $(event.target);
+        var navbar = $("#navbarCollapse");
+        var toggle = $("#navbar-toggle");
+
+        if (
+            navbar.hasClass("show") &&
+            !clickOver.hasClass("navbar") &&
+            !clickOver.hasClass("navbar-toggler") &&
+            !clickOver.parents(".navbar").length
+        ) {
+            toggle.click();
+        }
+    });
+
     document.getElementById("year").innerHTML = new Date().getFullYear();
 })(jQuery);

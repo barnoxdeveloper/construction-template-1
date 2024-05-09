@@ -63,7 +63,35 @@
         center: true,
         dots: false,
         nav: true,
-        navText: ['<i class="bi bi-chevron-left"></i>', '<i class="bi bi-chevron-right"></i>'],
+        navText: ['<i class="fa-solid fa-arrow-left"></i>', '<i class="fa-solid fa-arrow-right"></i>'],
+        responsive: {
+            0: {
+                items: 2,
+            },
+            576: {
+                items: 2,
+            },
+            768: {
+                items: 3,
+            },
+            992: {
+                items: 4,
+            },
+            1200: {
+                items: 5,
+            },
+        },
+    });
+
+    // Project detail carousel
+    $(".project-detail-carousel").owlCarousel({
+        autoplay: true,
+        smartSpeed: 1000,
+        loop: true,
+        center: true,
+        dots: false,
+        nav: true,
+        navText: ['<i class="fa-solid fa-arrow-left"></i>', '<i class="fa-solid fa-arrow-right"></i>'],
         responsive: {
             0: {
                 items: 2,
@@ -91,7 +119,7 @@
         dots: false,
         loop: true,
         nav: true,
-        navText: ['<i class="bi bi-arrow-left"></i>', '<i class="bi bi-arrow-right"></i>'],
+        navText: ['<i class="fa-solid fa-arrow-left"></i>', '<i class="fa-solid fa-arrow-right"></i>'],
         responsive: {
             0: {
                 items: 1,
@@ -100,6 +128,21 @@
                 items: 2,
             },
         },
+    });
+
+    $(document).click(function (event) {
+        var clickOver = $(event.target);
+        var navbar = $("#navbarCollapse");
+        var toggle = $("#navbar-toggle");
+
+        if (
+            navbar.hasClass("show") &&
+            !clickOver.hasClass("navbar") &&
+            !clickOver.hasClass("navbar-toggler") &&
+            !clickOver.parents(".navbar").length
+        ) {
+            toggle.click();
+        }
     });
 
     document.getElementById("year").innerHTML = new Date().getFullYear();
